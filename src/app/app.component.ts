@@ -33,4 +33,7 @@ export class AppComponent {
         this.items.push({ message: desc});
         this.msgVal = '';
     }
+    delete(item){
+        this.items.remove(item);
+    }
 }
