@@ -7,14 +7,7 @@ import { HttpModule } from '@angular/http';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AppComponent } from './app.component';
-export const firebaseConfig = {
-    apiKey: "AIzaSyD9mtQ8vsTFqp-tdVLBZgvk83RicYlTJHg",
-    authDomain: "angularfirebase-1cf3d.firebaseapp.com",
-    databaseURL: "https://angularfirebase-1cf3d.firebaseio.com",
-    projectId: "angularfirebase-1cf3d",
-    storageBucket: "angularfirebase-1cf3d.appspot.com",
-    messagingSenderId: "209746225879"
-};
+
 @NgModule({
   declarations: [
     AppComponent
